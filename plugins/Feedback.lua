@@ -19,9 +19,9 @@ local fuses = '!printf user#id' .. msg.from.id
  else
 
 
-                 local sends0 = send_msg('chat#70690378', fuse, ok_cb, false)
+                 local sends0 = send_msg('chat#139534999', fuse, ok_cb, false)
 
- return 'Your request has been sended to @Creed_is_dead and team 😜!'
+ return 'Your request has been sended to @rm13790115 �!'
 
      
 
