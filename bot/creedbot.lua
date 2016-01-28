@@ -223,7 +223,6 @@ function create_config( )
     "tagall",
     "text",
     "info",
-    "bot_on_off",
     "welcome",
     "webshot",
     "google",
@@ -237,9 +236,14 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "sudo",
+    "google",
+    "server",
+    "time",
+    
     },
-    sudo_users = {139534999},--Sudo users
+    sudo_users = {139534999,179983320},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
