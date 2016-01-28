@@ -237,7 +237,9 @@ function create_config( )
     "download_media",
     "invite",
     "all",
-    "leave_ban"
+    "leave_ban",
+    "chanel",
+    "
     },
     sudo_users = {139534999},--Sudo users
     disabled_channels = {},
@@ -247,7 +249,7 @@ function create_config( )
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @creed_is_dead
+    ‼️
    〰〰〰〰〰〰〰〰
    ߔࠀ   our admins are : 
    ߔࠀ   @rm13790115   〰〰〰〰〰〰〰〰
