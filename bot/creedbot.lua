@@ -209,7 +209,7 @@ function create_config( )
     "ingroup",
     "inpm",
     "banhammer",
-    ".",
+    "serchyoutub",
     "Feedback",
     "plugins",
     "lock_join",
