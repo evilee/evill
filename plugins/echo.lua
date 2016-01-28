@@ -1,4 +1,3 @@
-
 local function run(msg, matches)
   local text = matches[1]
   local b = 1
@@ -14,7 +13,7 @@ return {
   description = "Simplest plugin ever!",
   usage = "!echo [whatever]: echoes the msg",
   patterns = {
-    "^[!/]Echo +(.+)$"
+    "^!echo +(.+)$"
   }, 
   run = run 
 }
