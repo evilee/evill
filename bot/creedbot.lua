@@ -241,13 +241,13 @@ function create_config( )
     },
     sudo_users = {139534999},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {24097032},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[Creed bot 2.3
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @creed_is_dead
+    ‼️ this bot is made by @rm13790115
    〰〰〰〰〰〰〰〰
    ߔࠀ   our admins are : 
    ߔࠀ   @rm13790115   〰〰〰〰〰〰〰〰
@@ -342,7 +342,7 @@ You Can user both "!" & "/" for them
 
 ]],
     help_text = [[
-Creed bots Help for mods : Plugins
+AVENGERS Help for mods : Plugins
 
 Banhammer : 
 
@@ -350,16 +350,20 @@ Banhammer :
 Help For Banhammer دستوراتی برای کنترل گروه
 
 !Kick @UserName or ID 
+kick @username or id
 شخصی را از گروه حذف کنید . همچنین با ریپلی هم میشه
 
 !Ban @UserName or ID
+ban @username or id
 برای بن کردن شخص اسفاده میشود . با ریپلی هم میشه
 
 
 !Unban @UserName
+unban @username or id
 برای آنبن کردن شخصی استفاده میشود . همچنین با ریپلی هم میشه
 
 For Admins :
+فقط ادمین ربات
 
 !banall ID
 برای بن گلوبال کردن از تمامی گروه هاست باید ای دی بدین با ریپلی هم میشه
@@ -371,55 +375,47 @@ For Admins :
 2. GroupManager :
 
 !lock leave
+lock leave
 اگر کسی از گروه برود نمیتواند برگردد
 
 !lock tag
+lock tag
 برای مجوز ندادن به اعضا از استفاده کردن @  و #  برای تگ
 
-
-!Creategp "GroupName"
-you can Create group with this comman
-با این دستور برای ساخت گروه استفاده بکنید
-
-
 !lock member
-For locking Inviting users
+lock member
 برای جلوگیری از آمدن اعضای جدید استفاده میشود
 
 
 !lock bots
-for Locking Bots invitation
+lock bots
 برای جلوگیری از ادد کردن ربا استفاده میشود
 
 
 !lock name ❤️
-To lock the group name for every bodey
+lock name
 برای قفل کردن اسم استفاده میشود
-!setfloodߘ㊓et the group flood control߈銙囌زان اسپم را در گروه تعیین میکنید
+
+!setflood 5 تا 20 یه عدد را وارد کنید
+تعداد متنی که کسی بیشتر از اون در یک ثانیه بده رمو شه
 
 !settings ❌
-Watch group settings
 تنظیمات فعلی گروه را میبینید
 
 !owner
-watch group owner
 آیدی سازنده گروه رو میبینید
 
 !setowner user_id❗️
-You can set someone to the group owner‼️
 برای گروه سازنده تعیین میکنید 
 
 !modlist
-catch Group mods
 لیست مدیران گروه را میگیرید
 
 !lock join 
-to lock joining the group by link
 برای جلوگیری از وارد شدن به کروه با لینک
 
 
 !lock flood⚠️
-lock group flood
 از اسپم دادن در گروه جلوگیری کنید
 
 !unlock (bots-member-flood-photo-name-tag-link-join-Arabic)✅
@@ -463,64 +459,6 @@ gets The Group link
 sends the group link to the PV
 برای دریافت لینک در پیوی استفاده میشه 
 〰〰〰〰〰〰〰〰
-Admins :®
-!add
-to add the group as knows
-برای مجوز دادن به ربات برای استفاده در گروه
-
-
-!rem
-to remove the group and be unknown
-برای ناشناس کردن گروه برای ربات توسط مدیران اصلی
-
-!setgpowner (Gpid) user_id ⚫️
-For Set a Owner of group from realm
- برای تعیین سازنده ای برای گروه  از گروه مادر
-
-!addadmin [Username]
-to add a Global admin to the bot
-برای ادد کردن ادمین اصلی ربات
-
-
-!removeadmin [username]
-to remove an admin from global admins
-برای صلب ادمینی از ادمینای اصلی
-
-
-!plugins - [plugins]
-To Disable the plugin
-برای غیر فعال کردن پلاگین توسط سازنده
-
-
-!plugins + [plugins]
-To enable a plugins
-برای فعال کردن چلاگین توسط سازنده
-
-!plugins ?
-To reload al plugins
-رای تازه سازی تمامی پلاگین های فعال
-
-!plugins
-Shows the list of all plugins
-لیست تمامی پلاگین هارو نشون میده
-
-!sms [id] (text)
-To send a message to an account by his/her ID
-برای فرستادن متنی توسط ربات به شخصی با ای دی اون
-
-
-〰〰〰〰〰〰〰〰〰〰〰
-3. Stats :©
-!stats creedbot (sudoers)✔️
-To see the stats of creed bot
-برای دیدن آمار ربات 
-
-!stats
-To see the group stats
-برای دیدن آمار گروه 
-
-〰〰〰〰〰〰〰〰
-4. Feedback⚫️
 !feedback (text)
 To send your ideas to the Moderation group
 برای فرستادن انتقادات و پیشنهادات و حرف خود با مدیر ها استفاده میشه
@@ -531,16 +469,15 @@ To send your ideas to the Moderation group
 To tags the every one and sends your message at bottom
 تگ کردن همه ی اعضای گروه و نوشتن پیام شما زیرش
 
-〰〰〰〰〰〰〰〰〰
-More plugins  soon ...
-⚠️ We are Creeds ⚠️
 
-our channel : @creedantispam_channel
+our channel : @RANGERRSS
 کانال ما
 
 You Can user both "!" & "/" for them
 می توانید از دو شکلک !  و / برای دادن دستورات استفاده کنید
 
+آیدی سودو
+@rm13790115
 ]]
 
   }
