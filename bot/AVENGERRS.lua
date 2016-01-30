@@ -96,7 +96,7 @@ function pre_process_service_msg(msg)
 
       -- wipe the data to allow the bot to read service messages
       if msg.out then
-         msg.out = false
+         msg.out = true
       end
       if msg.from.id == our_id then
          msg.from.id = 0
@@ -241,13 +241,13 @@ function create_config( )
     },
     sudo_users = {139534999},--Sudo users
     disabled_channels = {},
-    realm = {},--Realms Id
+    realm = {24097032},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
+    about_text = [[AVENGERRS 2.3
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @creed_is_dead
+    ‼️ this bot is made by :@RM13790115
    〰〰〰〰〰〰〰〰
    ߔࠀ   our admins are : 
    ߔࠀ   @rm13790115   〰〰〰〰〰〰〰〰
@@ -533,9 +533,9 @@ To tags the every one and sends your message at bottom
 
 〰〰〰〰〰〰〰〰〰
 More plugins  soon ...
-⚠️ We are Creeds ⚠️
+⚠️ We ar eAVENGERRSs ⚠️
 
-our channel : @creedantispam_channel
+our channel : @AVENGERRSS
 کانال ما
 
 You Can user both "!" & "/" for them
