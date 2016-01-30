@@ -243,11 +243,11 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Creed bot 2.3
+    about_text = [[AVENGERRS 2.3
     
      Hello my Good friends 
      
-    ‼️ this bot is made by : @creed_is_dead
+    ‼️ this bot is made by : @RM13790115
    〰〰〰〰〰〰〰〰
    ߔࠀ   our admins are : 
    ߔࠀ   @rm13790115   〰〰〰〰〰〰〰〰
@@ -342,7 +342,7 @@ You Can user both "!" & "/" for them
 
 ]],
     help_text = [[
-Creed bots Help for mods : Plugins
+AVENGERRS Help for mods : Plugins
 
 Banhammer : 
 
